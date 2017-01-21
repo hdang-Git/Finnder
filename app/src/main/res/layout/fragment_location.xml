@@ -21,18 +21,6 @@
             android:textSize="80px"
             android:id="@+id/textView3" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            style="@style/Widget.AppCompat.EditText"
-            android:layout_below="@+id/textView3"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorAccent"
-            android:id="@+id/zip" />
-
         <TextView
             android:text="Or Share Your Current Location"
             android:layout_width="wrap_content"
@@ -63,6 +51,18 @@
             android:singleLine="false"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/zip"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 
