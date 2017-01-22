@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class location extends Fragment {
+public class location extends android.support.v4.app.Fragment {
 
 
     public location() {
@@ -23,7 +23,8 @@ public class location extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_location, container, false);
+        View v =  inflater.inflate(R.layout.fragment_location, container, false);
+        return v;
     }
 
 }
